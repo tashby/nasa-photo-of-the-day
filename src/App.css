@@ -37,15 +37,7 @@
   }
 }
 
-
-.card{
-  border: 1px solid black;
+.cardContainer{
   width: 90%;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-img{
-  width: 80%;
 }
