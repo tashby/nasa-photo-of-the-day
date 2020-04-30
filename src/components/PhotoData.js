@@ -4,16 +4,16 @@ import {Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, CardHeader, 
 const PhotoData = props =>{
     return(
         <div className = "cardContainer">
-          <Card >
+          <Card body outline color="danger">
           <CardHeader>Photo Of The Day</CardHeader>
         <CardImg top width="100%" src={props.photo} alt="Card image cap" />
         <CardBody>
           <CardTitle>{props.title}</CardTitle>
           <CardSubtitle>{props.date}</CardSubtitle>
           <CardText>{props.para}</CardText>
-          <Button>Button</Button>
+          <Button>Click for More Info!</Button>
         </CardBody>
-        <CardFooter className="text-muted">Changes Daily</CardFooter>
+        <CardFooter className="text-muted">Photo Updates Daily</CardFooter>
       </Card>
         </div>
         
